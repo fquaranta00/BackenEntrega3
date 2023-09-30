@@ -1,0 +1,92 @@
+[
+	{
+		"id": 852471,
+		"title": "tomate",
+		"description": "tomate del mejor",
+		"price": 25,
+		"thumbnail": "https://www.google.com",
+		"code": 123331212,
+		"stock": 44
+	},
+	{
+		"id": 106188,
+		"title": "morrones",
+		"description": "morrones del mejor",
+		"price": 2,
+		"thumbnail": "https://www.google.com",
+		"code": 12433212,
+		"stock": 8
+	},
+	{
+		"id": 102188,
+		"title": "peras",
+		"description": "peras de las mejores",
+		"price": 25,
+		"thumbnail": "https://www.google.com",
+		"code": 1133212,
+		"stock": 4
+	},
+	{
+		"id": 102189,
+		"title": "mani",
+		"description": "mani del mejor",
+		"price": 25,
+		"thumbnail": "https://www.google.com",
+		"code": 1133219,
+		"stock": 42
+	},
+	{
+		"id": 107188,
+		"title": "garrapiñada",
+		"description": "garrapiñada de las mejores",
+		"price": 2,
+		"thumbnail": "https://www.google.com",
+		"code": 9133212,
+		"stock": 234
+	},
+	{
+		"id": 109988,
+		"title": "lechuga",
+		"description": "lechuga de la mejor",
+		"price": 5,
+		"thumbnail": "https://www.google.com",
+		"code": 8833212,
+		"stock": 67
+	},
+	{
+		"id": 103388,
+		"title": "pan",
+		"description": "pan del mejor",
+		"price": 2,
+		"thumbnail": "https://www.google.com",
+		"code": 1673212,
+		"stock": 8
+	},
+	{
+		"id": 102599,
+		"title": "lentejas",
+		"description": "lentejas de las mejores",
+		"price": 9,
+		"thumbnail": "https://www.google.com",
+		"code": 1136412,
+		"stock": 56
+	},
+	{
+		"id": 104428,
+		"title": "roquefort",
+		"description": "roquefort del mejor",
+		"price": 555,
+		"thumbnail": "https://www.google.com",
+		"code": 1233292,
+		"stock": 6
+	},
+	{
+		"id": 112258,
+		"title": "mandarina",
+		"description": "mandarinas de las mejores",
+		"price": 25,
+		"thumbnail": "https://www.google.com",
+		"code": 1133226,
+		"stock": 4
+	}
+]
