@@ -111,50 +111,6 @@ const saveJSONToFile = async (path, data) => {
   }
 }
 
-// const desafio2 = async () => {
-//   try {
-//     const productManager = new ProductManager('./products.json');
-
-//     //CARGAR NUEVO PRODUCTO
-//     await productManager.addProduct({
-//       title: 'morrones',
-//       description: 'tomate del mejor',
-//       price: 25,
-//       thumbnail: 'https://www.google.com',
-//       code: 1233212,
-//       stock: 44,
-//     });
-
-
-//     //OBTENER PRODUCTOS
-//     const products = await productManager.getProducts();
-//     console.log('😎 Acá los productos:', products);
-
-
-//     //OBTENER PRODUCTOS POR ID
-//     const idProduct = 1;
-//     const productsById = await productManager.getProductsById(idProduct);
-//     console.log(`😎 Acá el producto id ${idProduct}:`, productsById);
-
-
-//     //ACTUALIZAR CAMPO EN PRODUCTO
-//     const productUpdate = await productManager.updateProduct(97667, 'code', 12312);
-//     console.log("El producto actualizado es: ", productUpdate);
-
-
-//     //BORRAR PRODUCTO
-//     const deletedProduct = await productManager.deleteProduct(97667);
-//     console.log("El resultado de la eliminación es:", deletedProduct);
-
-
-
-//   } catch (error) {
-//     console.error('😱 Ha ocurrido un error: ', error.message);
-//   }
-// };
-
-// desafio2()
-
 module.exports = {
   getJSONFromFile,
   saveJSONToFile,

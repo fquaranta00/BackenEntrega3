@@ -1,9 +1,9 @@
 const express = require('express');
-const { getJSONFromFile, saveJSONToFile, ProductManager }  = require('./ProductManager'); // Importa tu clase ProductManager
-const productManager = new ProductManager('./products.json'); // Inicializa el ProductManager con el archivo correcto
+const { getJSONFromFile, saveJSONToFile, ProductManager }  = require('./ProductManager'); 
+const productManager = new ProductManager('./products.json'); 
 
 const app = express();
-const port = 8080; // Puedes usar el puerto que prefieras
+const port = 8080; 
 
 
 // Endpoint para obtener productos
@@ -38,7 +38,7 @@ app.get('/products/:productId', async (req, res) => {
   });
   
   async function getProductById(productId) {
-    const products = await getJSONFromFile('./products.json'); // Asegúrate de tener esta función
+    const products = await getJSONFromFile('./products.json'); 
     const product = products.find((product) => product.id === parseInt(productId, 10));
     if (!product) {
       throw new Error('Producto no encontrado');
